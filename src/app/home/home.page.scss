@@ -1,3 +1,11 @@
-ion-thumbnail {
-  height: 100%;
+ion-list {
+  margin: 1px 3px;
+
+  ion-item {
+    border-radius: 0.5rem;
+
+    ion-thumbnail {
+      height: 100%;
+    }
+  }
 }
