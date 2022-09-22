@@ -1,0 +1,21 @@
+$inside_card_margin: 0.4rem;
+
+ion-card {
+  border-radius: .5rem;
+
+  .image {
+    margin: $inside_card_margin;
+    img {
+      border-radius: .5rem;
+    }
+  }
+
+  .categorias {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sinopse {
+    margin: $inside_card_margin;
+  }
+}
